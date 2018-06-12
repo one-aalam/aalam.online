@@ -1,1 +1,3 @@
 # aalam.online
+
+thoughts here...
