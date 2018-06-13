@@ -24,7 +24,7 @@ export default () => (
             best-of-breed tools/technologies, predominantly in Javascript
         </h3>
         <br />
-        <a className="button is-warning is-rounded">Get in touch</a>
+        <a href="mailto:one@aalam.online" className="button is-rounded">Get in touch</a>
         {/* <ul>
           <li><a className="button">Linkedin</a></li>
         </ul> */}
@@ -99,6 +99,12 @@ export default () => (
             margin-top: 1.4rem;
             transform-origin: center center;
             width: 4rem;
+        }
+        .button {
+            letter-spacing: 0;
+            background-color: white;
+            color: #e41fde;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, .4);
         }
     `}
     </style>
