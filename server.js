@@ -15,7 +15,7 @@ app.prepare()
 
     server.listen(8080, (err) => {
       if (err) throw err;
-      global.console.log('> Ready on http://localhost:3000');
+      global.console.log('> Ready on http://localhost:8080');
     });
   })
   .catch((ex) => {

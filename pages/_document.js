@@ -11,6 +11,8 @@ export default class ReactyvDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
           <title>{publicRuntimeConfig.appTitle}</title>
+          <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
           <link rel="stylesheet" href="/_next/static/style.css" />
         </Head>
         <body className="ry-body">
