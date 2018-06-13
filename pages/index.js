@@ -2,7 +2,7 @@ import React from 'react';
 import 'bulma/css/bulma.css';
 
 export default () => (
-  <section className="hero is-success is-fullheight">
+  <section className="hero hero-top is-success is-fullheight">
     <div className="hero-body">
       <div className="container has-text-centered">
         <div className="avatar">
@@ -38,8 +38,15 @@ export default () => (
       </nav>
     </div>
     <style jsx>{`
+        .hero-top {
+            background: radial-gradient(#000 0%, rgba(198, 48, 215, 0.2) 90%),
+                        linear-gradient(to bottom, rgba(198, 48, 215, 0.9), rgba(215, 119, 47, 0.3)),
+                        url(/static/bg-site.jpeg) no-repeat center center scroll;
+            background-color: #23d160;
+        }
         .avatar {
-            width: 200px;
+            width: 12.4rem;
+            height: 12.4rem;
             position: relative;
             margin: 0 auto 2rem;
         }
@@ -52,6 +59,8 @@ export default () => (
         }
         .avatar-image {
             border-radius: 290186px;
+            z-index: 2;
+            position: absolute;
         }
         .avatar-shadow {
             border-radius: 290186px;
@@ -59,6 +68,7 @@ export default () => (
             position: absolute;
             top: 10%;
             height: 100%;
+            z-index: 1;
         }
         .salute {
             font-family: 'Quicksand', sans-serif;
@@ -69,6 +79,7 @@ export default () => (
         .desc {
             font-family: 'Quicksand', sans-serif;
             font-size: 1.2rem;
+            margin-top: 1.2rem;
         }
         .desg {
             color: #ffe479;
