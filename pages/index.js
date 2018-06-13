@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 
+import './fonts.css';
+
 export default () => (
   <section className="hero hero-top is-success is-fullheight">
     <div className="hero-body">
@@ -25,15 +27,40 @@ export default () => (
         </h3>
         <br />
         <a href="mailto:one@aalam.online" className="button is-rounded">Get in touch</a>
-        {/* <ul>
-          <li><a className="button">Linkedin</a></li>
-        </ul> */}
+        <ul className="social-links">
+          <li>
+            <a href="https://www.linkedin.com/in/oneaalam" title="View aalam's Linkedin profile">
+              <span className="icon">
+                <i className="et-icon et-linkedin" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/aftabbuddy"
+              title="Scroll through aalam's tweets"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="icon">
+                <i className="et-icon et-twitter" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/one-aalam" title="Browse aalam's Github profile">
+              <span className="icon">
+                <i className="et-icon et-github" />
+              </span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     <div className="hero-foot">
       <nav className="tabs is-boxed is-fullwidth">
         <div className="container has-text-centered">
-          <h2 className="subtitle">Made with &hearts; in New Delhi, India</h2>
+          <small className="footer-msg">Made with &hearts; in New Delhi, India</small>
         </div>
       </nav>
     </div>
@@ -105,6 +132,22 @@ export default () => (
             background-color: white;
             color: #e41fde;
             box-shadow: 0px 4px 20px rgba(0, 0, 0, .4);
+        }
+        .social-links {
+            margin-top: 1rem;
+        }
+        .social-links li {
+            display: inline;
+            margin-right: 0.8rem;
+        }
+        .social-links li .icon {
+            color: #ffe479;
+            font-size: 1.2rem;
+        }
+        .footer-msg {
+            color: rgba(255, 228, 121, 0.3);
+            text-transform: uppercase;
+            margin-bottom: 0.8rem;
         }
     `}
     </style>
