@@ -15,7 +15,7 @@ export default () => (
         <h6 className="desg">
             Javascript Craftsmanship &#124; since summer&apos;o 2010
         </h6>
-        <div className="hr" />
+        {/* <div className="hr" /> */}
         {/* <h2 className="subtitle">
           Welcome to online home of Aftab Alam, a Sr. Javascript Engineer/Architect based out of New Delhi, India
         </h2> */}
