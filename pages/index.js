@@ -13,7 +13,7 @@ export default () => (
           Hi, I&apos;m Aftab Alam
         </h1>
         <h6 className="desg">
-            Javascript Craftsmanship &#124; since summer&apos;o 2010
+            fine web craftsmanship &#124; since summer&apos;o 2010
         </h6>
         {/* <div className="hr" /> */}
         {/* <h2 className="subtitle">
@@ -33,7 +33,7 @@ export default () => (
     <div className="hero-foot">
       <nav className="tabs is-boxed is-fullwidth">
         <div className="container has-text-centered">
-            &nbsp; New Delhi, India
+          <h2 className="subtitle">Made with &hearts; in New Delhi, India</h2>
         </div>
       </nav>
     </div>
